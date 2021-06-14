@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.0.RELEASE</version>
+	</parent>
+	
+	<groupId>com.github.shivam9ronaldo7</groupId>
+	<artifactId>sps-pet-clinic</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	
+	<name>Pet Clinic Application</name>
+	<description>Spring boot application</description>
+	
+	<modules>
+		<module>pet-clinic-data</module>
+		<module>pet-clinic-web</module>
+	</modules>
+	
+	<packaging>pom</packaging>
+	
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>shivam9ronaldo7</id>
+			<roles>
+				<role>Owner</role>
+			</roles>
+			<name>Shivam Pratap Singh</name>
+			<email>shivam9ronaldo7@gmail.com</email>
+			<organization>MyOwn</organization>
+			<organizationUrl>https://github.com/shivam9ronaldo7</organizationUrl>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/shivam9ronaldo7/reports.git</connection>
+		<developerConnection>scm:git:ssh://github.com:shivam9ronaldo7/reports.git</developerConnection>
+		<url>https://github.com/shivam9ronaldo7</url>
+	</scm>
+	<issueManagement>
+		<url>https://github.com/shivam9ronaldo7/reports/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+</project>
